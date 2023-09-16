@@ -4,7 +4,7 @@ A script to generate a bunch of variations of your locally running fx(hash) proj
 
 Basically, it
 
-- goes opens your project in a headless browser
+- opens your project in a headless browser
 - waits for `fxpreview` call
 - saves a screenshot to a specified location
 - repeats all the above a bunch of times
