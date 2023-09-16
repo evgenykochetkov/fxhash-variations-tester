@@ -8,7 +8,7 @@ import { waitForFxPreviewCall } from "./helpers.mjs";
 // Make sure to keep `preview=1` param when editing the URL
 // if you call `fxpreview` only if `isFxpreview` is true.
 const PROJECT_URL = "http://localhost:5173?preview=1";
-const ITERATIONS_COUNT = 16;
+const ITERATIONS_COUNT = 32;
 const WINDOW_WIDTH = 1024;
 const WINDOW_HEIGHT = 1024;
 const RESULTS_PATH = "./results";
@@ -19,6 +19,7 @@ const browser = await puppeteer.launch({
   defaultViewport: {
     width: WINDOW_WIDTH,
     height: WINDOW_HEIGHT,
+    deviceScaleFactor: 2,
   },
 });
 
