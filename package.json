@@ -1,0 +1,15 @@
+{
+  "name": "fxhash-variations-tester",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node ./index.mjs"
+  },
+  "keywords": [],
+  "author": "Evgeny Kochetkov",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.2.1"
+  }
+}
