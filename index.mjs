@@ -38,7 +38,7 @@ for (let i = 0; i < ITERATIONS_COUNT; i++) {
   });
 
   console.log(
-    `[${i}/${ITERATIONS_COUNT}] saved ${filename} to ${RESULTS_PATH}`
+    `[${i + 1}/${ITERATIONS_COUNT}] saved ${filename} to ${RESULTS_PATH}`
   );
 }
 
