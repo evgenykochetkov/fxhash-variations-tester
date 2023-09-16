@@ -2,8 +2,11 @@ import path from "path";
 import puppeteer from "puppeteer";
 import { waitForFxPreviewCall } from "./helpers.mjs";
 
-// make sure to keep `preview=1` param when editing the URL
-// if you call `fxpreview` only is `isFxpreview` is true
+// If you use https://github.com/fxhash/params-boilerplate,
+// you most likely should change the port from `5173` to `3301`.
+//
+// Make sure to keep `preview=1` param when editing the URL
+// if you call `fxpreview` only if `isFxpreview` is true.
 const PROJECT_URL = "http://localhost:5173?preview=1";
 const ITERATIONS_COUNT = 16;
 const WINDOW_WIDTH = 1024;
